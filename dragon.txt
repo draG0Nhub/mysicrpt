@@ -741,6 +741,10 @@ BodyTab:AddButton({
         game:GetService("ReplicatedStorage"):WaitForChild("Remotes", 9e9):WaitForChild("ChangeCharacterBody", 9e9):InvokeServer(unpack(args))
     end
 })
+
+-- ==========================================
+-- 4. تبويب التحكم باللاعب
+-- ==========================================
 local EspTab3 = Window:MakeTab({"ESP", ""})
 local NameEsp = false
 local LineEsp = false
