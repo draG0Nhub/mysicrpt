@@ -1,14 +1,22 @@
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/draG0Nhub/gg/refs/heads/main/draGon.lua"))()
+local _7 = loadstring(game:HttpGet('https://api.lumi.new/v1/functions/p411936918378364928/getScript?id=69b47c6255502c3e6742f863'))()
 
-local Window = redzlib:MakeWindow({ 
-    Title = "draGonHub | V1", 
-    SubTitle = "by KALED_66 ", 
-    SaveFolder = "testando_redz_lib_v5.lua" 
+workspace.FallenPartsDestroyHeight = -1 / 0
+
+local _call9 = _7:MakeWindow({
+    LoadText = 'Carregando...',
+    SubTitle = 'Starlight Hub Developers',
+    Title = 'DRLINHub V1 - Brookhaven RP \u{1f3e1}',
+    Flags = 'starlightversaotestes',
 })
 
-Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://72495850369898", BackgroundTransparency = 0 },
-    Corner = { CornerRadius = UDim.new(0, 0) },
+_call9:AddMinimizeButton({
+    Button = {
+        BackgroundTransparency = 0,
+        Image = 'rbxassetid://130633648074677',
+    },
+    Corner = {
+        CornerRadius = UDim.new(35, 1),
+    },
 })
 
 local Players = game:GetService("Players")
@@ -123,8 +131,7 @@ Tab2:AddButton({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sector9922/SECTOR-SHIFT-LOCK/main/SECTOR%20SHIFT%20LOCK"))()
 end
 })
-AddSection(Main, {"سكربتات اجنبية"})
-
+Tab2:AddSection({"سكربتات اجنبية"})
 Tab2:AddButton({
   Name = "سكربت مشيات",
   Callback = function()
