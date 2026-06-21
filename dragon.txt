@@ -90,12 +90,187 @@ Tab1:AddSection("أهلاً بك يا بطل: " .. player.Name)
 Tab1:AddButton({ Name = "اضغط هنا لنسخ يوزري في التليجرام", Callback = function() setclipboard('@C7_od') end })
 Tab1:AddButton({ Name = "اضغط هنا لنسخ يوزر حسابي في روب", Callback = function() setclipboard('KALED_66') end })
 
-local Tab2 = Window:MakeTab({"سكربتات عشوائية", ""})
+local Tab2 = Window:MakeTab({"سكربتات عشوائية", ""}) 
 
-Tab2:AddButton({ Name = "طيران v3", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))() end })
-Tab2:AddButton({ Name = "سكربت المشيات", Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-VR7-45290"))() end })
-Tab2:AddButton({ Name = "سكربت القفل", Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Sector9922/SECTOR-SHIFT-LOCK/main/SECTOR%20SHIFT%20LOCK"))() end }) 
-Tab2:AddButton({ Name = "اوامر ادمن", Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end })
+Tab2:AddSection({"سكربتات مفيدة"})
+Tab2:AddButton({
+  Name = "سكربت ايمبوت",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HomeMadeScripts/Camlock-aimlock/main/obf_Wxr6QgzF76G1y2Ch77KN4Zt5Nz0A6GIl61gitv3mRR2t3V103al5d0g26s4KY04r.lua.txt"))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت طيران سيارات",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/TrollXVfly.txt"))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت طيران",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/Orion/refs/heads/main/%D8%B3%D9%83%D8%B1%D8%A8%D8%AA%D9%8A%20%D9%85%D8%A7%D9%84%20%D8%B7%D9%8A%D8%B1%D8%A7%D9%86"))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت يسوي فلنق للسيارات",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/Vfly_TrollX.txt"))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت شفت لوك ينطيك قفل شاشة",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sector9922/SECTOR-SHIFT-LOCK/main/SECTOR%20SHIFT%20LOCK"))()
+end
+})
+AddSection(Main, {"سكربتات اجنبية"})
+
+Tab2:AddButton({
+  Name = "سكربت مشيات",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-AFEM-14048"))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت R4D",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت روجيبس لجميع المابات",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
+end
+})
+Tab2:AddButton({
+  Name = "سكربت تخريب",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-New-Update-24681"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت الهلال | Scrpit Atomic",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت SanderX",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sXPiterXs1111/Sanderx3.25/main/sanderxv3.25.lua"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت رحمة",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت R4D",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت RealHub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت تخريب",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت Premium",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gjQUGX/DXVUSEW/refs/heads/main/Sunterium-Hub/DELTA"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت Mango",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/MangoHub", true))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت شادو",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realgengar/Brookhaven/refs/heads/main/Source.lua"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت Universal",
+  Callback = function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت يطير او يقتل اي احد يطيرك",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GUI-10927"))()
+  end
+})
+
+Tab2:AddButton({
+  Name = "سكربت محد يكدر يطيرك",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت Infinity Yield ",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت تخريب",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت رحمة",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت يسوي فلنق للسيارات",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/Vfly_TrollX.txt"))()
+end
+}) 
+Tab2:AddSection({"سكربتات صديقي Trollx"})
+Tab2:AddButton({
+  Name = "سكربت نسخ سكنات",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/-/refs/heads/main/CopyAvatar.txt"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت طيران سيارة",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/Vfly_TrollX.txt"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت اغاني",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/MusicTrollX.txt"))()
+  end
+})
+Tab2:AddButton({
+  Name = "سكربت التدمير",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmidd409/TrollX-V2/refs/heads/main/HackerBrookhaven_TrollX.txt"))()
+  end
+})
 
 -- ==========================================
 -- 3. تبويب الأغاني
@@ -650,7 +825,8 @@ BodyTab:AddButton({
 })
 
 
-AddSection(Main, {" اجسام القزم "})
+BodyTab:AddSection({" اجسام القزم "})
+
 
 BodyTab:AddButton({
     Name = "  جسم القزم  ",
@@ -742,9 +918,6 @@ BodyTab:AddButton({
     end
 })
 
--- ==========================================
--- 4. تبويب التحكم باللاعب
--- ==========================================
 local EspTab3 = Window:MakeTab({"ESP", ""})
 local NameEsp = false
 local LineEsp = false
